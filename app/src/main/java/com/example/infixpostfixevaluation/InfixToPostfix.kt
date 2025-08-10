@@ -33,7 +33,6 @@ fun infixToPostfix(infix : String) :String {
                 result.append(' ').append(stack.pop())
         }
 
-
         return result.toString()
 }
 
